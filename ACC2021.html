@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Real-time State Estimation of Deformable Objects with Dynamical Simulation</title>
+</head>
+<body>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+    var pageTracker = _gat._getTracker("UA-72838229-5");
+    pageTracker._trackPageview();
+} catch(err) {}</script>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Website</div>
+<div class="menu-item"><a href="https://changhaowang.github.io">Home</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Real-time State Estimation of Deformable Objects with Dynamical Simulation</h1>
+<div id="subtitle"><br />
+Shiyu Jin*, Changhao Wang*, Xinghao Zhu*, Te Tang, and Masayoshi Tomizuka</div>
+</div>
+<p>Welcome!
+This website supplements our workshop paper on deformable object tracking.</p>
+<p>Estimating the state of deformable objects is vital for manipulation, while it is also challenging due to high degrees of freedom and the nonlinearity of the dynamics model. In order to achieve robust state estimation, we proposed a novel framework shown in Fig. ref{fig:framework}, which includes point cloud recovery, node registration, feedback linearization controller, and dynamical simulation modules. Compared with previous works, the point cloud recovery step is able to robustly provide a complete point cloud of the object even under major occlusions. In addition, the feedback linearization controller is able to stabilize the rope tracking procedure via applying a control law that first cancel higher-order terms in the dynamic equation and then use an additional PD control law to control the remaining linear dynamics. Simulation and experimental results are shown to validate the effectiveness and robustness of the proposed framework. 
+<br /></p>
+<h2>Rope Tracking with Structure Preserved Registration (no point cloud recovery module)</h2>
+<ul>
+<li><p>Rope Tracking without the Point Cloud Recovery Module:</p>
+</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fmjxPM9ZZC8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p><br /></p>
+<h2>Rope Tracking with Structure Preserved Registration (with point cloud recovery and feedback linearization controller)</h2>
+<ul>
+<li><p>Rope Point Cloud with the Point Cloud Recovery Module:</p>
+</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rFXb-txhgn0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p><br /></p>
+<ul>
+<li><p>Rope Tracking with the Physics Engine and the Point Cloud Recovery Module 1:</p>
+</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/305My_TFikk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p><br /></p>
+<ul>
+<li><p>Rope Tracking with the Physics Engine and the Point Cloud Recovery Module 2:</p>
+</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NcBC3oU29jk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p><br /></p>
+<ul>
+<li><p>Final Comparasion Video:</p>
+</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lfoIRS4E2-A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div id="footer">
+<div id="footer-text">
+Page generated 2020-09-09 13:04:40 PDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
